@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px ;
+    color:aqua;
+}
+
+h2{
+    font-size: 30px;
+    color: blue;
+}
+
+li{
+    font-size: 20px;
+}
+
+ul li {
+    color: darkgreen;
+}
+
+ol li {
+    color:cornflowerblue
+}
+
+a {
+    color: red;
+}
+
+a:hover{
+    color:black; 
+}
