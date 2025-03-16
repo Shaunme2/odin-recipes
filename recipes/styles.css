@@ -3,14 +3,22 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body{
+    background-color: darkgray;
+}
 h1 {
     font-size: 40px ;
     color:aqua;
+    border: 5px dotted;
+    width: 450px;
+    text-align: center;
+    margin: auto;
 }
 
 h2{
     font-size: 30px;
     color: blue;
+    text-decoration: underline;
 }
 
 li{
@@ -21,14 +29,48 @@ ul li {
     color: darkgreen;
 }
 
-ol li {
-    color:cornflowerblue
+
+ol li{
+    color:bisque;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: auto 20px;
 }
 
-a {
-    color: red;
+footer {
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+.back-button {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
 
 a:hover{
     color:black; 
 }
+
+.Ingredients{
+    border: 2px solid black;
+    margin-top: 30px;
+    padding:10px;
+}
+
+.Ingredients h2{
+    margin: 10px;
+}
+#Ingredient-Header{
+    padding-top: 0px;
+}
+
